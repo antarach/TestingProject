@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-11T07:32:47Z" name="Default suite" finished-at="2021-06-11T07:33:19Z" duration-ms="32758">
+    <groups>
+      <group name="HomePage">
+        <method signature="BlazeDemoHomeTest.verifyAllLinks()[pri:1, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" name="verifyAllLinks" class="com.test.blazeDemo.BlazeDemoHomeTest"/>
+        <method signature="BlazeDemoHomeTest.verifyArrivalOptionsPresent()[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" name="verifyArrivalOptionsPresent" class="com.test.blazeDemo.BlazeDemoHomeTest"/>
+        <method signature="BlazeDemoHomeTest.verifyDepartureOptionsPresent()[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" name="verifyDepartureOptionsPresent" class="com.test.blazeDemo.BlazeDemoHomeTest"/>
+        <method signature="BlazeDemoHomeTest.verifyHomepageTitle()[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" name="verifyHomepageTitle" class="com.test.blazeDemo.BlazeDemoHomeTest"/>
+      </group> <!-- HomePage -->
+      <group name="BookPage">
+        <method signature="BlazeDemoBookTest.restrictBookingWithoutDetails()[pri:1, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075]" name="restrictBookingWithoutDetails" class="com.test.blazeDemo.BlazeDemoBookTest"/>
+        <method signature="BlazeDemoBookTest.restrictOpenConfirmationPage()[pri:1, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075]" name="restrictOpenConfirmationPage" class="com.test.blazeDemo.BlazeDemoBookTest"/>
+        <method signature="BlazeDemoBookTest.verifyBookPageTitle()[pri:0, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075]" name="verifyBookPageTitle" class="com.test.blazeDemo.BlazeDemoBookTest"/>
+      </group> <!-- BookPage -->
+    </groups>
+    <test started-at="2021-06-11T07:32:47Z" name="Default test" finished-at="2021-06-11T07:33:19Z" duration-ms="32758">
+      <class name="com.test.blazeDemo.BlazeDemoHomeTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" started-at="2021-06-11T07:32:47Z" name="launchBrowser" finished-at="2021-06-11T07:32:52Z" duration-ms="5292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setHome()[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" started-at="2021-06-11T07:32:52Z" name="setHome" finished-at="2021-06-11T07:32:56Z" duration-ms="3664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHome -->
+        <test-method signature="verifyArrivalOptionsPresent()[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" started-at="2021-06-11T07:32:56Z" name="verifyArrivalOptionsPresent" finished-at="2021-06-11T07:32:56Z" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyArrivalOptionsPresent -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" started-at="2021-06-11T07:32:56Z" name="testStatus" finished-at="2021-06-11T07:32:56Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyArrivalOptionsPresent status=SUCCESS method=BlazeDemoHomeTest.verifyArrivalOptionsPresent()[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+        <test-method is-config="true" signature="setHome()[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" started-at="2021-06-11T07:32:56Z" name="setHome" finished-at="2021-06-11T07:32:57Z" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHome -->
+        <test-method signature="verifyDepartureOptionsPresent()[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" started-at="2021-06-11T07:32:57Z" name="verifyDepartureOptionsPresent" finished-at="2021-06-11T07:32:57Z" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDepartureOptionsPresent -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" started-at="2021-06-11T07:32:57Z" name="testStatus" finished-at="2021-06-11T07:32:57Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDepartureOptionsPresent status=SUCCESS method=BlazeDemoHomeTest.verifyDepartureOptionsPresent()[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+        <test-method is-config="true" signature="setHome()[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" started-at="2021-06-11T07:32:57Z" name="setHome" finished-at="2021-06-11T07:32:57Z" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHome -->
+        <test-method signature="verifyHomepageTitle()[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" started-at="2021-06-11T07:32:57Z" name="verifyHomepageTitle" finished-at="2021-06-11T07:32:57Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" started-at="2021-06-11T07:32:57Z" name="testStatus" finished-at="2021-06-11T07:32:57Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomepageTitle status=SUCCESS method=BlazeDemoHomeTest.verifyHomepageTitle()[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+        <test-method is-config="true" signature="setHome()[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" started-at="2021-06-11T07:33:04Z" name="setHome" finished-at="2021-06-11T07:33:05Z" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHome -->
+        <test-method signature="verifyAllLinks()[pri:1, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" started-at="2021-06-11T07:33:05Z" name="verifyAllLinks" finished-at="2021-06-11T07:33:09Z" duration-ms="4145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllLinks -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" started-at="2021-06-11T07:33:09Z" name="testStatus" finished-at="2021-06-11T07:33:09Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllLinks status=SUCCESS method=BlazeDemoHomeTest.verifyAllLinks()[pri:1, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.test.blazeDemo.BlazeDemoHomeTest@6a370f4]" started-at="2021-06-11T07:33:09Z" name="terminateBrowser" finished-at="2021-06-11T07:33:10Z" duration-ms="1182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.test.blazeDemo.BlazeDemoHomeTest -->
+      <class name="com.test.blazeDemo.BlazeDemoBookTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075]" started-at="2021-06-11T07:32:57Z" name="launchBrowser" finished-at="2021-06-11T07:33:01Z" duration-ms="3942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setHome()[pri:0, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075]" started-at="2021-06-11T07:33:01Z" name="setHome" finished-at="2021-06-11T07:33:04Z" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHome -->
+        <test-method signature="verifyBookPageTitle()[pri:0, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075]" started-at="2021-06-11T07:33:04Z" name="verifyBookPageTitle" finished-at="2021-06-11T07:33:04Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookPageTitle -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075]" started-at="2021-06-11T07:33:04Z" name="testStatus" finished-at="2021-06-11T07:33:04Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBookPageTitle status=SUCCESS method=BlazeDemoBookTest.verifyBookPageTitle()[pri:0, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+        <test-method is-config="true" signature="setHome()[pri:0, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075]" started-at="2021-06-11T07:33:10Z" name="setHome" finished-at="2021-06-11T07:33:13Z" duration-ms="2713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHome -->
+        <test-method signature="restrictBookingWithoutDetails()[pri:1, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075]" started-at="2021-06-11T07:33:13Z" name="restrictBookingWithoutDetails" finished-at="2021-06-11T07:33:14Z" duration-ms="962" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://blazedemo.com/purchase.php] but found [https://blazedemo.com/confirmation.php]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://blazedemo.com/purchase.php] but found [https://blazedemo.com/confirmation.php]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.test.blazeDemo.BlazeDemoBookTest.restrictBookingWithoutDetails(BlazeDemoBookTest.java:81)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restrictBookingWithoutDetails -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075]" started-at="2021-06-11T07:33:14Z" name="testStatus" finished-at="2021-06-11T07:33:15Z" duration-ms="989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=restrictBookingWithoutDetails status=FAILURE method=BlazeDemoBookTest.restrictBookingWithoutDetails()[pri:1, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+        <test-method is-config="true" signature="setHome()[pri:0, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075]" started-at="2021-06-11T07:33:15Z" name="setHome" finished-at="2021-06-11T07:33:17Z" duration-ms="2317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHome -->
+        <test-method signature="restrictOpenConfirmationPage()[pri:1, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075]" started-at="2021-06-11T07:33:17Z" name="restrictOpenConfirmationPage" finished-at="2021-06-11T07:33:18Z" duration-ms="727" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Error] but found [BlazeDemo Confirmation]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Error] but found [BlazeDemo Confirmation]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.test.blazeDemo.BlazeDemoBookTest.restrictOpenConfirmationPage(BlazeDemoBookTest.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restrictOpenConfirmationPage -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075]" started-at="2021-06-11T07:33:18Z" name="testStatus" finished-at="2021-06-11T07:33:18Z" duration-ms="467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=restrictOpenConfirmationPage status=FAILURE method=BlazeDemoBookTest.restrictOpenConfirmationPage()[pri:1, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.test.blazeDemo.BlazeDemoBookTest@2abf4075]" started-at="2021-06-11T07:33:18Z" name="terminateBrowser" finished-at="2021-06-11T07:33:19Z" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.test.blazeDemo.BlazeDemoBookTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
